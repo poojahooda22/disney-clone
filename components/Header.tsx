@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+
 
 function Header() {
   return (
-    <div>
-      Header
-    </div>
+    <Link href="/">
+        <Image
+            src="https://links.papereact.com/a943ae"
+            alt="Disney+"
+            width={80}
+            height={80}
+        />
+    </Link>
   )
 }
 
