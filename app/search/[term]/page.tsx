@@ -11,7 +11,7 @@ function SearchPage({params: {term}} : Props) {
     
   return (
     <div>
-      Search Page
+      Welecome to the search page { term }
     </div>
   )
 }
