@@ -1,6 +1,14 @@
 import React from 'react'
 
-function SearchPage() {
+type Props = {
+    params: {
+        term: string;
+    }
+}
+
+
+function SearchPage({params: {term}} : Props) {
+    
   return (
     <div>
       Search Page
