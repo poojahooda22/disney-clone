@@ -11,7 +11,7 @@ type Props = {
 
 function GenrePage({ params: { id }, searchParams: {genre}}: Props) {
   return (
-    <div>
+    <div className='text-red-500'>
       Welcome to the genre with id: {id} and name: {genre}
     </div>
   )
