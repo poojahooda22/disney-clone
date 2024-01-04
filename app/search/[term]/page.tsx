@@ -11,10 +11,12 @@ type Props = {
 function SearchPage({params: {term}} : Props) {
     // for not found page
     if(!term) notFound();
+
+    const termToUse = decodeURI(term);
     
   return (
     <div>
-      Welecome to the search page { term }
+      Welecome to the search page: { termToUse }
     </div>
   )
 }
