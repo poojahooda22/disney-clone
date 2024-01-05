@@ -3,7 +3,8 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                protool: 
+                protocol: 'https',
+                hostname: 'links.papareact.com' 
             }
         ]
     }
