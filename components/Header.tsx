@@ -7,13 +7,19 @@ function Header() {
     <header>
       <Link href="/">
         <Image
-          src="https://links.papereact.com/a943ae"
+          src="https://links.papareact.com/a943ae"
           alt="Disney Logo"
           className='cursor-pointer invert'
           width={80}
           height={80}
         />
       </Link>
+      <div>
+        {/* GenreDropdown*/}
+        {/* SearchBar*/}
+        {/* Login*/}
+
+      </div>
     </header>
     
   )
