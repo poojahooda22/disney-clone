@@ -7,7 +7,7 @@ function Header() {
     <Link href="/">
         <Image
           src="https://links.papereact.com/a943ae"
-            alt="Disney+"
+          alt="Disney+"
             width={80}
             height={80}
         />
