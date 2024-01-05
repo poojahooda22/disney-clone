@@ -9,7 +9,7 @@ function Header() {
         <Image
           src="https://links.papereact.com/a943ae"
           alt="Disney Logo"
-          className='cursor-pointer'
+          className='cursor-pointer invert'
           width={80}
           height={80}
         />
