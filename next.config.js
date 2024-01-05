@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
         remotePatterns: [
-            
+            'https://images.unsplash.com/photo-:id',
         ]
     }
 }
