@@ -11,7 +11,7 @@ function Header() {
           alt="Disney+"
           
           width={80}
-            height={80}
+          height={80}
         />
       </Link>
     </header>
