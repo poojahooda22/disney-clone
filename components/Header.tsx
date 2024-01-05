@@ -14,7 +14,7 @@ function Header() {
           height={80}
         />
       </Link>
-      <div>
+      <div className='flex space-x-2'>
         {/* GenreDropdown*/}
         {/* SearchBar*/}
         {/* Login*/}
