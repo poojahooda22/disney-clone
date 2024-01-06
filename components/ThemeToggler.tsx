@@ -31,7 +31,7 @@ export function ThemeToggler() {
         Dark
       </DropdownMenuItem>
       <DropdownMenuItem onClick={() => setTheme("system")}>
-          System
+        System
       </DropdownMenuItem>
         
     </DropdownMenu>
