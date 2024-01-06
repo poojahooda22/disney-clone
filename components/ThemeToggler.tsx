@@ -25,7 +25,7 @@ export function ThemeToggler() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
+        Light
       </DropdownMenuItem>
         
     </DropdownMenu>
