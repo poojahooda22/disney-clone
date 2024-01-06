@@ -32,8 +32,7 @@ export function ThemeToggler() {
       </DropdownMenuItem>
       <DropdownMenuItem onClick={() => setTheme("system")}>
         System
-      </DropdownMenuItem>
-        
+      </DropdownMenuItem> 
     </DropdownMenu>
   );
 }
