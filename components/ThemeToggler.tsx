@@ -29,7 +29,7 @@ export function ThemeToggler() {
       </DropdownMenuItem>
       <DropdownMenuItem onClick={() => setTheme("dark")}>
           Dark
-        </DropdownMenuItem>
+      </DropdownMenuItem>
         
     </DropdownMenu>
   );
