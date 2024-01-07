@@ -40,7 +40,7 @@ function SearchInput() {
   return (
     <Form {...form}
     >
-      <form onSubmit={}>
+      <form onSubmit={form.handleSubmit(onSubmit)}>
 
       </form>
      
