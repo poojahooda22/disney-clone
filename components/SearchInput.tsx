@@ -30,7 +30,7 @@ function SearchInput() {
   
   return (
     <div>
-      Search 
+     
     </div>
   )
 }
