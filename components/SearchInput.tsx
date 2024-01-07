@@ -5,7 +5,15 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from 'zod';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
-
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form"
 
 const formSchema = z.object({
   input: z.string().min(2).max(50)
