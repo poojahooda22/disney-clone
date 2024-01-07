@@ -8,6 +8,7 @@ const formSchema = z.object({
 })
 
 function SearchInput() {
+  const router = useRouter();
   return (
     <div>
       Search 
