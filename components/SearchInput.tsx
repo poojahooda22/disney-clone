@@ -20,7 +20,7 @@ function SearchInput() {
   });
 
   
-  const router = useRouter();
+  
   return (
     <div>
       Search 
