@@ -11,6 +11,8 @@ const formSchema = z.object({
 })
 
 function SearchInput() {
+  const router = useRouter();
+  
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
