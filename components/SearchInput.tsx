@@ -31,7 +31,9 @@ function SearchInput() {
   return (
     <Form {...form}
     >
-      
+      <form>
+        
+      </form>
      
     </Form>
   )
