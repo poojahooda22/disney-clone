@@ -4,7 +4,7 @@ import React from 'react';
 import * as z from 'zod';
 
 const formSchema = z.object({
-  input: z.string()
+  input: z.string().min(2)
 })
 
 function SearchInput() {
