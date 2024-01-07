@@ -29,9 +29,11 @@ function SearchInput() {
   }
   
   return (
-    <div>
+    <Form {...form}
+    >
+      
      
-    </div>
+    </Form>
   )
 }
 
