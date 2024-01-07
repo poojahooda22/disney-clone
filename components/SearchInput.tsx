@@ -6,6 +6,7 @@ import * as z from 'zod';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 
+
 const formSchema = z.object({
   input: z.string().min(2).max(50)
 })
@@ -31,8 +32,8 @@ function SearchInput() {
   return (
     <Form {...form}
     >
-      <form>
-        
+      <form onSubmit={}>
+
       </form>
      
     </Form>
