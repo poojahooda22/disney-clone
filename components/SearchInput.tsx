@@ -2,7 +2,7 @@
 
 import React from 'react';
 import * as z from 'zod';
-import { useRouter } 
+import { useRouter } from 'next/navigation';
 
 const formSchema = z.object({
   input: z.string().min(2).max(50)
