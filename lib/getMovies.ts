@@ -37,7 +37,7 @@ export async function getTopRatedMovies() {
 }
 
 export async function getPopularMovies() {
-    const url = new URL( "https://api.themoviedb.org/3/movie/top_rated");
+    const url = new URL( "https://api.themoviedb.org/3/movie/popular");
     const data = await fetchFromTMDB(url);
 
     return data.results;
