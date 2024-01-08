@@ -7,7 +7,7 @@ type Props = {
     isVertical?: boolean;
 }
 
-function MoviesCarousel() {
+function MoviesCarousel({title, movies, isVertical}: Props) {
   return (
     <div>
         Movie
