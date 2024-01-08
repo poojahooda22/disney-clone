@@ -4,6 +4,12 @@ export default function Home() {
   return (
     <main >
       <h1>Lets build Disney+ Clone</h1>
+
+      {/* CarouselBannerWrapper */}
+
+      <div>
+        
+      </div>
     </main>
   )
 };
