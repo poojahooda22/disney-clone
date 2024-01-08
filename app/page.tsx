@@ -9,6 +9,7 @@ export default function Home() {
 
       <div>
         {/* CarouselBanner for upcoming movie */}
+        {/* CarouselBanner for recent movie */}
       </div>
     </main>
   )
