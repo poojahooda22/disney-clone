@@ -10,7 +10,7 @@ export default function Home() {
       <div>
         {/* <MoviesCarousel for upcoming movie /> */}
         {/* <MoviesCarousel for top rated movie /> */}
-        {/* CarouselBanner for popular movie */}
+        {/* <MoviesCarousel for popular movie /> */}
       </div>
     </main>
   )
