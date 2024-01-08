@@ -1,5 +1,6 @@
 import { Movie } from '@/typings';
-import React from 'react'
+import React from 'react';
+import MovieCard from './MovieCard';
 
 type Props = {
     title?: string;
