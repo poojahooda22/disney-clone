@@ -3,9 +3,11 @@ import MoviesCarousel from '@/components/MoviesCarousel';
 import { getUpcomingMovies,getPopularMovies, getTopRatedMovies } from '@/lib/getMovies';
 
 export default async function Home() {
+  
   const upComingMovies = await getUpcomingMovies();
   const topRatedMovies = await getTopRatedMovies();
   const popularMovies = await getPopularMovies();
+
   return (
     <main >
       
