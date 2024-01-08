@@ -9,7 +9,7 @@ type Props = {
 
 function MoviesCarousel({title, movies, isVertical}: Props) {
   return (
-    <div>
+    <div className='z-50'>
         <h2>{title}</h2>
     </div>
   )
