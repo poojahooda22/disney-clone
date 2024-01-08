@@ -14,7 +14,7 @@ export default async function Home() {
 
       <div className='flex flex-col space-y-2 xl:-mt-48'>
         <MoviesCarousel movies={upComingMovies} title="Upcoming" />
-        <MoviesCarousel movies={} title="Top Rated" />
+        <MoviesCarousel movies={topRatedMovies} title="Top Rated" />
         {/* <MoviesCarousel for top rated movie /> */}
         {/* <MoviesCarousel for popular movie /> */}
       </div>
