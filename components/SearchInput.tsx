@@ -1,4 +1,4 @@
-"use Client";
+"use client";
 
 import React from 'react';
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -13,7 +13,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form"
+} from "@/components/ui/form";
+
+import { Input } from "@/components/ui/input"
 
 const formSchema = z.object({
   input: z.string().min(2).max(50)
@@ -35,15 +37,26 @@ function SearchInput() {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     console.log(values)
+
+    router.push(`/search/${values.input}`);
   }
   
   return (
     <Form {...form}
     >
-      <form onSubmit={form.handleSubmit(onSubmit)}>
-
+      <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
+        <FormField
+          control={form.control}
+          name="input"
+          render={({field}) => (
+            <FormItem>
+              <FormControl>
+                <Input placeholder="search" {...field} />
+              </FormControl>
+            </FormItem>
+          )}
+        ></FormField>
       </form>
-     
     </Form>
   )
 }
