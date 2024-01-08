@@ -14,5 +14,6 @@ async function fetchFromTMDB(url: URL, cacheTime?: number) {
         next: {
             revalidate: cacheTime || 60 * 60 * 24, //24 hours
         }
-    }
+    };
+    const response = await fetch(url.toString(),options);
 }
