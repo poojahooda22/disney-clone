@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import MoviesCarousel from '@/components/MoviesCarousel';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       {/* CarouselBannerWrapper */}
 
       <div>
-        {/* <MoviesCarousel for upcoming movie /> */}
+        <MoviesCarousel movies={[]} title="Upcoming" />
         {/* <MoviesCarousel for top rated movie /> */}
         {/* <MoviesCarousel for popular movie /> */}
       </div>
