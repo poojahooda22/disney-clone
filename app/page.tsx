@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import MoviesCarousel from '@/components/MoviesCarousel';
+import { getUpcomingMovies } from '@/lib/getMovies';
 
 export default async function Home() {
-  const upComingMovies = await getUpcomiongMovies();
-  const topRatedMovies = await getTopRatedMovies();
-  const popularMovies = await getPopularMovies();
+  const upComingMovies = await getUpcomingMovies();
+  // const topRatedMovies = await getTopRatedMovies();
+  // const popularMovies = await getPopularMovies();
   return (
     <main >
       
@@ -12,7 +13,7 @@ export default async function Home() {
       {/* CarouselBannerWrapper */}
 
       <div className='flex flex-col space-y-2 xl:-mt-48'>
-        <MoviesCarousel movies={[]} title="Upcoming" />
+        <MoviesCarousel movies={upComingMovies} title="Upcoming" />
         {/* <MoviesCarousel for top rated movie /> */}
         {/* <MoviesCarousel for popular movie /> */}
       </div>
