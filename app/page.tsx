@@ -4,7 +4,7 @@ import MoviesCarousel from '@/components/MoviesCarousel';
 export default function Home() {
   return (
     <main >
-      <h1>Lets build Disney+ Clone</h1>
+      
 
       {/* CarouselBannerWrapper */}
 
