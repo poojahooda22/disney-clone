@@ -8,7 +8,7 @@ export default function Home() {
       {/* CarouselBannerWrapper */}
 
       <div>
-        {/* CarouselBanner for upcoming movie */}
+        {/* <MoviesCarousel for upcoming movie /> */}
         {/* CarouselBanner for top rated movie */}
         {/* CarouselBanner for popular movie */}
       </div>
