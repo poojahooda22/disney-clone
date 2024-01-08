@@ -35,3 +35,10 @@ export async function getTopRatedMovies() {
 
     return data.results;
 }
+
+export async function getPopularMovies() {
+    const url = new URL( "https://api.themoviedb.org/3/movie/top_rated");
+    const data = await fetchFromTMDB(url);
+
+    return data.results;
+}
