@@ -1,6 +1,8 @@
 import React from 'react'
 
-function MovieCard() {
+import { Movie } from '@/typings'
+
+function MovieCard({movie}: {movie: Movie}) {
   return (
     <div>
       Movie card
