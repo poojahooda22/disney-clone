@@ -9,7 +9,10 @@ function MovieCard({movie}: {movie: Movie}) {
       <p>{movie.title}</p>
 
       <Image
-        
+        alt={movie.title}
+        width={1920}
+        height={1080}
+        key={movie.id}
       />
     </div>
   )
