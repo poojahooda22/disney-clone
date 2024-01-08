@@ -4,7 +4,7 @@ import React from 'react'
 type Props = {
     title?: string;
     movies: Movie[];
-    
+    isVertical?: boolean;
 }
 
 function MoviesCarousel() {
