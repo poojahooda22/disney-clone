@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import MoviesCarousel from '@/components/MoviesCarousel';
-import { getUpcomingMovies } from '@/lib/getMovies';
+import { getUpcomingMovies, getTopRatedMovies } from '@/lib/getMovies';
 
 export default async function Home() {
   const upComingMovies = await getUpcomingMovies();
