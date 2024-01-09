@@ -15,7 +15,7 @@ export default async function Home() {
       {/* CarouselBannerWrapper */}
 
       <div className='flex flex-col space-y-2 xl:-mt-48'>
-        <MoviesCarousel movies={upComingMovies} title="Upcoming" isVertical />
+        <MoviesCarousel movies={upComingMovies} title="Upcoming"  />
         <MoviesCarousel movies={topRatedMovies} title="Top Rated" />
         <MoviesCarousel movies={popularMovies} title="Popular" />
         {/* <MoviesCarousel for top rated movie /> */}
