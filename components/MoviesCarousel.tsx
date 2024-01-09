@@ -29,7 +29,9 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
                 )}
               >
                 <MovieCard movie={movie} />
-                <div></div>
+                <div>
+                  <p>{movie.title}</p>
+                </div>
               </div>
             )) : 
             movies?.map((movie) => 
