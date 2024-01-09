@@ -29,8 +29,8 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
                 )}
               >
                 <MovieCard movie={movie} />
-                <div>
-                  <p>{movie.title}</p>
+                <div className='max-w-2xl'>
+                  <p className='font-bold'>{movie.title}9{movie.release_date?.split("-")[0]}</p>
                 </div>
               </div>
             )) : 
