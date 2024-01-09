@@ -22,7 +22,12 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
         >
           {isVertical 
             ? movies.map((movie) => (
-              <div>
+              <div
+                key={movie.id}
+                className={cn(
+                  isVertical && "flex flex-col space-y-5 mb-5 items-center lg:flex-row space-x-5"
+                )}
+              >
                 <MovieCard movie={movie} />
                 <div></div>
               </div>
