@@ -4,7 +4,12 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'links.papareact.com' 
+                hostname: 'links.papareact.com' ,
+                
+            },
+            {
+                protocol: 'https',
+                hostname: 'image.tmdb.org'
             }
         ]
     }
