@@ -15,7 +15,10 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
         <h2 className='text-xl font-bold  px-10 py-2'>{title}</h2>
 
         <div 
-        className={cn("flex space-x-4 overflow-scroll px-5 lg:px-10 py-5 scrollbar-hide")}>
+          className={cn(
+            "flex space-x-4 overflow-scroll px-5 lg:px-10 py-5 scrollbar-hide"
+          )}
+        >
           {movies?.map(movie => (
             <MovieCard key={movie.id} movie={movie} />
           ))}
