@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import MoviesCarousel from '@/components/MoviesCarousel';
 import { getUpcomingMovies, getPopularMovies, getTopRatedMovies } from '@/lib/getMovies';
+import CarouselBannerWrapper from '@/components/CarouselBannerWrapper';
 
 export default async function Home() {
   
@@ -13,6 +14,7 @@ export default async function Home() {
       
 
       {/* CarouselBannerWrapper */}
+      <CarouselBannerWrapper />
 
       <div className='flex flex-col space-y-2 xl:-mt-48'>
         <MoviesCarousel movies={upComingMovies} title="Upcoming"  />
