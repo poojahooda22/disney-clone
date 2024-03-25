@@ -64,7 +64,6 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
         >
           {title}
         </h2>
-
         <div 
           ref={sliderRef}
           className={cn(
