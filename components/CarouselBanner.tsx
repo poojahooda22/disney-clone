@@ -55,7 +55,6 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
             className='absolute inset-0 bg-gradient-to-b from-gray-200/0 
             via-gray-900/25 to-gray-300 dark:to-[#1a1c29]'   
         />
-
     </div>
   )
 }
