@@ -42,7 +42,8 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
                         via-transparent to-transparent
                         p-10 space-y-5 text-white'
                     >
-                        <h2 className='text-3xl font-bold max-w-xl z-50'>
+                        <h2 
+                        className='text-3xl font-bold max-w-xl z-50'>
                             {movie.title}
                         </h2>
                         <p className='max-w-xl line-clamp-3'>
