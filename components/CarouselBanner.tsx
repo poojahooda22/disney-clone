@@ -68,4 +68,4 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
   )
 };
 
-export default CarouselBanner
+export default CarouselBanner;
