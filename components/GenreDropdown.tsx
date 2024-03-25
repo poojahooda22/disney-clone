@@ -36,7 +36,7 @@ async function GenreDropdown() {
         Genre 
         <ChevronDown 
           className="ml-1" 
-          />
+        />
       </DropdownMenuTrigger>
 
       <DropdownMenuContent>
