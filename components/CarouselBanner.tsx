@@ -66,6 +66,6 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
         />
     </div>
   )
-}
+};
 
 export default CarouselBanner
