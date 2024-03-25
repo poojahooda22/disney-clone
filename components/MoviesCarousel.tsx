@@ -85,7 +85,8 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
                     {movie.title} {movie.release_date?.split("-")[0]}
                   </p>
                   <hr className='mb-3' />
-                  <p className=''>{movie.overview}</p>
+                  <p className=''>
+                    {movie.overview}</p>
                 </div>
               </div>
             )) : 
