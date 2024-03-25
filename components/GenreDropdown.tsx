@@ -33,7 +33,8 @@ async function GenreDropdown() {
         className="text-white flex justify-center 
         items-center"
         >
-        Genre <ChevronDown className="ml-1" />
+        Genre 
+        <ChevronDown className="ml-1" />
       </DropdownMenuTrigger>
 
       <DropdownMenuContent>
