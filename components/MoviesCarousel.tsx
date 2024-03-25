@@ -86,7 +86,8 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
                   </p>
                   <hr className='mb-3' />
                   <p className=''>
-                    {movie.overview}</p>
+                    {movie.overview}
+                    </p>
                 </div>
               </div>
             )) : 
