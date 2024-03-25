@@ -51,7 +51,7 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
                         <p 
                             className='max-w-xl 
                             line-clamp-3'
-                            >
+                        >
                             {movie.overview}
                         </p>
                     </div>
