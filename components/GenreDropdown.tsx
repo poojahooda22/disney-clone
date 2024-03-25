@@ -42,7 +42,8 @@ async function GenreDropdown() {
 
       <DropdownMenuContent>
         <DropdownMenuLabel>
-          Select a Genre</DropdownMenuLabel>
+          Select a Genre
+          </DropdownMenuLabel>
         <DropdownMenuSeparator />
 
         {data.genres.map((genre) => (
