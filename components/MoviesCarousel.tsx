@@ -63,7 +63,7 @@ function MoviesCarousel({title, movies, isVertical}: Props) {
           px-10 py-2'
         >
           {title}
-          </h2>
+        </h2>
 
         <div 
           ref={sliderRef}
