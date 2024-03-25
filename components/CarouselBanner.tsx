@@ -23,7 +23,8 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
             {movies.map((movie) => (
                 <div
                     key={movie.id}
-                    className='flex-full min-w-0 relative'
+                    className='flex-full min-w-0 
+                    relative'
                 >
                    <Image 
                         key={movie.id}
