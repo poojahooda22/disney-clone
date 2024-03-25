@@ -35,7 +35,8 @@ function CarouselBanner({movies}: {movies: Movie[]}) {
                    />
 
                    <div 
-                        className='hidden lg:inline absolute mt-0 top-0 pt-40 
+                        className='hidden lg:inline absolute mt-0 top-0 
+                        pt-40 
                         xl:pt-52 left-0 lg:mt-40 bg-transparent z-20
                         h-full w-full bg-gradient-to-r from-gray-900/90 
                         via-transparent to-transparent
